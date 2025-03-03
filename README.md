@@ -2,8 +2,8 @@
 
 In this project, you will develop a football statistics application that tracks teams, players, and match results using 
 Object-Oriented Programming (OOP) and collections as a database. You'll implement features like sorting, filtering, and 
-statistical analysis to determine top teams and players. This hands-on project will enhance your Java skills, problem-solving 
-abilities, and teamwork, preparing you for real-world software development.
+statistical analysis to determine top teams and players. This hands-on project will enhance your problem-solving 
+and teamwork abilities, preparing you for real-world software development.
 
 ## Project Description
 
@@ -68,3 +68,14 @@ interface FileHandler {
     void loadData(String filename);
 }
 ```
+
+## Workflow
+
+We suggest applying the following workflow:  
+
+- **Define roles and responsibilities**, and assign tasks (e.g., one student works on UI, another on data handling, etc.).  
+- **Break down the project into tasks** and describe each task (or a small group of related tasks) in a new GitHub issue. Use **To Do**, **In Progress**, and **Done** labels to track progress.  
+- **Create a new pull request (PR) for each issue** (or a related group of issues), but keep them manageable. Each PR name should start with `#issue-number PR Description`.  
+- **Use a new branch for each PR**, then merge it into the `main` branch when it is approved by the team. Follow this branch naming convention: `issue-number-task-description`.  
+- **Limit each PR to fewer than 100 lines of code** whenever possible. Avoid modifying the same class if another team member has an open PR affecting it, as this can lead to merge conflicts.  
+
